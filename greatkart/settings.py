@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
-    # 'debug_toolbar',
 
 ]
 
@@ -53,7 +52,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'greatkart.urls'
@@ -138,31 +136,3 @@ STATICFILES_DIRS = [
 #media file configuration
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR /'media'
-
-
-from django.contrib.messages import constants as messages
-MESSAGE_TAGS = {
-    messages.ERROR: 'danger',
-}
-
-#SMTP configuraiton
-EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
-EMAIL_HOST = 'ssl0.ovh.net'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'admin.ventalis@lebolch.fr'
-EMAIL_HOST_PASSWORD = '[pTVR{qy2~$n=Rt-'
-EMAIL_USE_TLS = True
-
-# # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# DEFAULT_FROM_EMAIL = 'lebolch.fr <noreply@mydomain.com>'
-# EMAIL_BACKEND = 'admin.ventalis@lebolch.fr'
-# EMAIL_HOST = 'ssl0.ovh.net' # Le serveur SMTP d'OVH
-# EMAIL_PORT = 995 # Le port SMTP sécurisé d'OVH
-# EMAIL_HOST_USER = 'admin.ventalis@lebolch.fr' # Votre adresse email OVH
-# EMAIL_HOST_PASSWORD = '[pTVR{qy2~$n=Rt-' # Le mot de passe de votre adresse email OVH
-# EMAIL_USE_SSL = False # Utiliser SSL pour sécuriser la connexion SMTP
-# EMAIL_USE_TLS = True
-
-# INTERNAL_IPS = [
-#     '127.0.0.1'
-# ]

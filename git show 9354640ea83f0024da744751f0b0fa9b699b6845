@@ -1,0 +1,35 @@
+[33mcommit 2371c55949daf225aaa143210e36111fccd8ad35[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Francky <fnacky.leblokchmch@gmail.com>
+Date:   Wed Apr 12 21:56:39 2023 +0200
+
+    Removing .\greatkart\settings.py from git index
+
+[33mcommit 1d0866b9d4cdcf81f8f48af239d01a5e56c596fb[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Francky <fnacky.leblokchmch@gmail.com>
+Date:   Wed Apr 12 21:49:24 2023 +0200
+
+    Handeled cart and checkout page for the checking user - item grouping issue
+
+[33mcommit 9354640ea83f0024da744751f0b0fa9b699b6845[m
+Author: Francky <fnacky.leblokchmch@gmail.com>
+Date:   Thu Apr 6 03:42:27 2023 +0200
+
+    django authentification
+
+[33mcommit e1469c563eb5dc0ca9a184526f97a3100043ea58[m
+Author: Francky <fnacky.leblokchmch@gmail.com>
+Date:   Mon Apr 3 21:28:01 2023 +0200
+
+    store and carts fuctionality
+
+[33mcommit 3558918b50cea343c48c1d56d8348c9cf58b1a95[m
+Author: Francky <fnacky.leblokchmch@gmail.com>
+Date:   Wed Mar 29 16:50:57 2023 +0200
+
+    Fixing cart  bug and adding cart processor
+
+[33mcommit ca419afa20bde01afd07c5d2653fd75ca8f01c72[m
+Author: Francky <fnacky.leblokchmch@gmail.com>
+Date:   Tue Mar 28 02:06:09 2023 +0200
+
+    This is my first commit
